@@ -1,4 +1,4 @@
-WAMP - Apache VirtualHost Console (msysgit)
+WAMP - Apache VirtualHost Script (WSL)
 ==========================================
 A simple bash script that creates a virtual host in Apache on Windows with WAMP.
 
@@ -16,4 +16,4 @@ What it does
 
 Thanks
 ------
-This script is based on https://github.com/MattSkala/apache-vhost script.
+This script is based on https://github.com/renekopcem/wamp-vhost script.
