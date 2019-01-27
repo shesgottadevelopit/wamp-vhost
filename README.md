@@ -1,18 +1,18 @@
 WAMP - Apache VirtualHost Script (WSL)
 ==========================================
-A simple bash script that creates a virtual host in Apache on Windows with WAMP.
+A simple bash script that creates a virtual host in Apache on Windows with WAMP using Windows Subsystem for Linux.
 
 How to use
 ----------
-``sh ./vhost.sh domain path``
+``./vhost.sh <domain> <path>``
 
-(e.g. ``sh vhost.sh project.dev 'D:\project'``)
+(e.g. ``./vhost.sh project.local 'c:\project'``)
 
 What it does
 ------------
-- Adds a domain mapping to C:/windows/drives/etc/hosts
-- Adds VirtualHost to C:\wamp_directory\bin\apache\apache2.2.22\conf\extra\httpd-vhosts.conf
-- Restarts WampApache service
+- [x] Adds a domain mapping to C:/windows/drives/etc/hosts
+- [x] Adds VirtualHost to C:\wamp_directory\bin\apache\apache2.2.22\conf\extra\httpd-vhosts.conf
+- [ ] Restarts WampApache service (this is broken)
 
 Thanks
 ------
