@@ -33,8 +33,7 @@ echo "
 </VirtualHost>" >> $HTTPDCONF
 
 echo "$1 mapped to \"$2\""
-echo $2
 
-# Restart Apache (doesn't wor)
-#net stop wampapache
-#net start wampapache
+# Restart Apache
+cmd.exe /c NET STOP wampapache64
+cmd.exe /c NET START wampapache64

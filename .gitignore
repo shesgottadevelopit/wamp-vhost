@@ -1,0 +1,14 @@
+# on using .gitignore https://git-scm.com/docs/gitignore
+
+# Ignore everything in the following
+.*
+~*
+
+# local-server-config directory
+local-server-config/**
+
+# ignore OS generated files
+Thumbs.db
+
+# don't ignore .gitignore
+!.gitignore
