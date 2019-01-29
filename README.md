@@ -12,7 +12,7 @@ What it does
 ------------
 - [x] Adds a domain mapping to C:/windows/drives/etc/hosts
 - [x] Adds VirtualHost to C:\wamp_directory\bin\apache\apache2.2.22\conf\extra\httpd-vhosts.conf
-- [ ] Restarts WampApache service (this is broken)
+- [x] Restarts WampApache service
 
 Thanks
 ------
