@@ -17,8 +17,8 @@ What it does
 
 What can be done later
 ------------
-- [] Add the script to PATH via `~/bin`
-- [] Create an alias for the command `./vhost.sh` to easily use the command
+- [ ] Add the script to PATH via `~/bin`
+- [ ] Create an alias for the command `./vhost.sh` to easily use the command
 
 Thanks
 ------
